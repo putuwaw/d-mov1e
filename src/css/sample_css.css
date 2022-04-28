@@ -1,0 +1,7 @@
+@import url("../font/sample_font.ttf");
+
+label{
+	font-size: 100px;
+	font-family: 'Grape Nuts', cursive;
+	color: #FFF;
+}
