@@ -10,3 +10,7 @@
 
 # Executables
 *.exe
+
+# CodeBlocks
+*.depend
+*.layout
