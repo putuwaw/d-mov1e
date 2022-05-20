@@ -40,10 +40,58 @@
 		<Linker>
 			<Add option="`pkg-config --libs gtk+-3.0`" />
 		</Linker>
+		<Unit filename="lib/d_mov1e.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/d_mov1e.h" />
+		<Unit filename="lib/dashboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard.h" />
+		<Unit filename="lib/dashboard_informasi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_informasi.h" />
+		<Unit filename="lib/dashboard_informasi_antrian.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_informasi_antrian.h" />
+		<Unit filename="lib/dashboard_informasi_aplikasi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_informasi_aplikasi.h" />
+		<Unit filename="lib/dashboard_informasi_pembeli.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_informasi_pembeli.h" />
+		<Unit filename="lib/dashboard_informasi_transaksi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_informasi_transaksi.h" />
+		<Unit filename="lib/dashboard_pembayaran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_pembayaran.h" />
+		<Unit filename="lib/dashboard_pembelian.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_pembelian.h" />
+		<Unit filename="lib/dashboard_pemilihan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dashboard_pemilihan.h" />
 		<Unit filename="lib/sample_lib.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib/sample_lib.h" />
+		<Unit filename="lib/sign_in.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/sign_in.h" />
+		<Unit filename="lib/sign_up.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/sign_up.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
