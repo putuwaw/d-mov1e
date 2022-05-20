@@ -1,10 +1,6 @@
-#include "lib/sample_lib.h"
-#include <gtk/gtk.h>
+#include "lib/d_mov1e.h"
 
-int main()
-{
-    printHelloWorld();
-
+int main(){
     GtkWidget *window;
     GtkWidget *layout;
     GtkWidget *image;
