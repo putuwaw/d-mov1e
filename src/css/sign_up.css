@@ -1,0 +1,48 @@
+button {
+    background-color: rgb(150, 11, 30);
+}
+
+button:hover {
+    background-color: rgb(174, 19, 39);
+}
+
+label {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+#errorDialog label,
+#infoDialog label {
+    color: black;
+    font-weight: 700;
+}
+
+#errorDialog,
+#infoDialog {
+    background-color: #f0f0f0;
+}
+
+#errorDialog button label,
+#infoDialog button label {
+    color: white;
+    font-weight: 700;
+}
+
+#errorDialog button {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: rgb(255, 20, 20);
+}
+
+#infoDialog button {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: rgb(0, 255, 0);
+}
