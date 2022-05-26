@@ -1,0 +1,38 @@
+/* GLOBAL */
+* {
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+#errorDialog label {
+    color: black;
+    font-weight: 700;
+}
+
+#errorDialog {
+    background-color: #f0f0f0;
+}
+
+#errorDialog button label {
+    color: white;
+    font-weight: 700;
+}
+
+#errorDialog button {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: rgb(255, 20, 20);
+
+}
+
+button {
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+}
