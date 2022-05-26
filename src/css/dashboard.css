@@ -1,0 +1,57 @@
+@import url("d_mov1e.css");
+
+label {
+    color: black;
+}
+
+#labelTitle {
+    font-weight: 800;
+}
+
+#labelPlaying {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+button {
+    background-color: rgb(150, 11, 30);
+}
+
+button:hover {
+    background-color: rgb(173, 17, 38);
+}
+button label{
+    color: white;
+}
+#trailer1,
+#trailer2,
+#trailer3,
+#trailer4 {
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px 1px gray;
+}
+
+#trailer1:hover,
+#trailer2:hover,
+#trailer3:hover,
+#trailer4:hover {
+    box-shadow: 2px 2px 1px 2px gold;
+    transition: .3s;
+}
+
+
+#trailer1 {
+    background-image: url("../image/kkn_desa_penari.png");
+}
+
+#trailer2 {
+    background-image: url("../image/thethrone.png");
+}
+
+#trailer3 {
+    background-image: url("../image/readyplayerone.png");
+}
+
+#trailer4 {
+    background-image: url("../image/doraemon2.png");
+}
