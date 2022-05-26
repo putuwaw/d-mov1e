@@ -3,4 +3,7 @@
 
 #include "dashboard.h"
 
+void display_dashboard_pembelian();
+void handle_display_dashboard_pembelian(GtkWidget *widget, GtkWidget *window);
+
 #endif // DASHBOARD_PEMBELIAN_H_INCLUDED

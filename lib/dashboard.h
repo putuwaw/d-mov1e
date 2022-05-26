@@ -3,6 +3,9 @@
 
 #include "d_mov1e.h"
 
+void display_dashboard(GtkWidget *window);
+void handle_display_dashboard(GtkWidget *widget, GtkWidget *window);
+
 // DASHBOARD HEADER
 #include "dashboard_pembelian.h"
 #include "dashboard_pemilihan.h"
