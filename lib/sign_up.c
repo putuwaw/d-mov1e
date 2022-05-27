@@ -121,7 +121,7 @@ void display_sign_up(){
     gtk_window_set_icon(GTK_WINDOW(windowSignUp), iconSignUp);
 
     // BACKGROUND
-    bgSignUp = gtk_image_new_from_file("src/image/new_account.png");
+    bgSignUp = gtk_image_new_from_file("src/image/sign_up.png");
     gtk_layout_put(GTK_LAYOUT(layoutSignUp), bgSignUp, 0, 0);
 
     // LABEL

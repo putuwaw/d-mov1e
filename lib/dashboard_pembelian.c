@@ -373,7 +373,7 @@ void display_dashboard_pembelian(){
     gtk_window_set_icon(GTK_WINDOW(windowDashPembelian), iconDashPembelian);
 
     // BACKGROUND
-    bgDashPembelian = gtk_image_new_from_file("src/image/Pembelian.png");
+    bgDashPembelian = gtk_image_new_from_file("src/image/dashboard_pembelian.png");
     gtk_layout_put(GTK_LAYOUT(layoutDashPembelian), bgDashPembelian, 0, 0);
 
     // LABEL

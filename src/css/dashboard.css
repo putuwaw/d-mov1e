@@ -20,9 +20,11 @@ button {
 button:hover {
     background-color: rgb(173, 17, 38);
 }
-button label{
+
+button label {
     color: white;
 }
+
 #trailer1,
 #trailer2,
 #trailer3,
@@ -45,13 +47,13 @@ button label{
 }
 
 #trailer2 {
-    background-image: url("../image/thethrone.png");
+    background-image: url("../image/the_throne.png");
 }
 
 #trailer3 {
-    background-image: url("../image/readyplayerone.png");
+    background-image: url("../image/ready_player_one.png");
 }
 
 #trailer4 {
-    background-image: url("../image/doraemon2.png");
+    background-image: url("../image/doraemon_2.png");
 }

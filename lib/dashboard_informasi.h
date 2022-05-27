@@ -3,6 +3,9 @@
 
 #include "dashboard.h"
 
+void display_dashboard_informasi();
+void handle_display_dashboard_informasi(GtkWidget *widget, GtkWidget *window);
+
 // DASHBOARD INFORMASI HEADER
 #include "dashboard_informasi_antrian.h"
 #include "dashboard_informasi_transaksi.h"
