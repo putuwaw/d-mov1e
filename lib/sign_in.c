@@ -76,7 +76,7 @@ void display_sign_in(){
     gtk_window_set_icon(GTK_WINDOW(windowSignIn), iconSignIn);
 
     // BACKGROUND
-    bgSignIn = gtk_image_new_from_file("src/image/login.png");
+    bgSignIn = gtk_image_new_from_file("src/image/sign_in.png");
     gtk_layout_put(GTK_LAYOUT(layoutSignIn), bgSignIn, 0, 0);
 
     // LABEL

@@ -53,7 +53,7 @@ void display_informasi_pembeli(){
     gtk_window_set_icon(GTK_WINDOW(windowInfoBST), iconInfoBST);
 
     // BACKGROUND
-    bgInfoBST = gtk_image_new_from_file("src/image/PEMBELI TERSULTAN.png");
+    bgInfoBST = gtk_image_new_from_file("src/image/dashboard_informasi_pembeli.png");
     gtk_layout_put(GTK_LAYOUT(layoutInfoBST), bgInfoBST, 0, 0);
 
      // label

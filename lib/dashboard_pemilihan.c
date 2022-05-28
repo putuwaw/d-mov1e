@@ -589,7 +589,7 @@ void display_dashboard_pemilihan_kursi(){
     gtk_window_set_icon(GTK_WINDOW(windowPemilihanKursi), iconPemilihanKursi);
 
     // BACKGROUND
-    bgPemilihanKursi = gtk_image_new_from_file("src/image/Pembelian.png");
+    bgPemilihanKursi = gtk_image_new_from_file("src/image/dashboard_pembelian.png");
     gtk_layout_put(GTK_LAYOUT(layoutPemilihanKursi), bgPemilihanKursi, 0, 0);
 
     labelTiketDipilih = gtk_label_new("");

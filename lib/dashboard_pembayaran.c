@@ -331,7 +331,7 @@ void display_dashboard_pembayaran(){
     gtk_window_set_icon(GTK_WINDOW(windowDashPembayaran), iconDashPembayaran);
 
     // BACKGROUND
-    bgDashPembayaran = gtk_image_new_from_file("src/image/pembayaran.png");
+    bgDashPembayaran = gtk_image_new_from_file("src/image/dashboard_pembayaran.png");
     gtk_layout_put(GTK_LAYOUT(layoutDashPembayaran), bgDashPembayaran, 0, 0);
 
     // label
