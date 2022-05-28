@@ -1,0 +1,6 @@
+label {
+    color: black;
+}
+#labelTitle, button label{
+    color: white;
+}
