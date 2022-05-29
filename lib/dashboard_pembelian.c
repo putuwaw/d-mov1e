@@ -213,7 +213,7 @@ void display_warn_pembelian(GtkWidget *widget, GtkWidget *window){
                 timeInfo = localtime(&rawtime);
                 char chrTimeNow[100];
                 reset_string(chrTimeNow, 100);
-                strcpy(chrTimeNow, timeToStr(timeInfo));
+                strcpy(chrTimeNow, time_to_str(timeInfo));
                 strcpy(qUser->qBuyTime, chrTimeNow);
 
                 // STUDIO FILM

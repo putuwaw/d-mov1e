@@ -1,9 +1,15 @@
 #include "dashboard_pembayaran.h"
 
-// input
+// WINDOW
+GtkWidget *windowDashPembayaran;
+
+// ENTRY
 GtkWidget *entryDibayarPelanggan;
+
+// LAYOUT
 GtkWidget *layoutDashPembayaran;
 
+// LABEL
 GtkWidget *labelPecahanUangTersedia;
 GtkWidget *labelPecahanUangKembali;
 
@@ -201,8 +207,12 @@ void count_cash_back(GtkWidget *widget, GtkWidget *window){
 
 void display_warn_pembayaran(GtkWidget *widget, GtkWidget *window){
     bool isDeleted = false;
+    const gchar *gEntry = gtk_entry_get_text(GTK_ENTRY(entryDibayarPelanggan));
     if (qFrontPay == NULL){
         display_error_dialog("Data pembayaran kosong", window);
+    }
+    else if (strcmp(gEntry, "") == 0){
+        display_error_dialog("Uang tidak boleh kosong!", windowDashPembayaran);
     }
     else{
         GtkWidget *dialog;
@@ -211,6 +221,7 @@ void display_warn_pembayaran(GtkWidget *widget, GtkWidget *window){
                 GTK_MESSAGE_ERROR,
                 GTK_BUTTONS_YES_NO,
                 "Konfirmasi Pembayaran?");
+        gtk_widget_set_name(dialog, "warnDialog");
         gtk_window_set_title(GTK_WINDOW(dialog), "Warning");
         int res = gtk_dialog_run(GTK_DIALOG(dialog));
         if (res == -8){ // YES
@@ -286,8 +297,7 @@ void display_warn_pembayaran(GtkWidget *widget, GtkWidget *window){
 void display_dashboard_pembayaran(){
     get_user_invoice_from_file();
 
-    // WINDOW
-    GtkWidget *windowDashPembayaran;
+
 
     // ICON
     GdkPixbuf *iconDashPembayaran;

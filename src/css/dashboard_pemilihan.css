@@ -28,12 +28,46 @@ label {
 #buttonAction {
     background-color: maroon;
 }
-#warnConfirm label{
+
+#warnConfirm label {
     color: black;
 }
-#warnConfirm button{
+
+#warnConfirm button {
     background-color: orange;
 }
+
+/* dialog */
+
+#errorDialog label,
+#infoDialog label,
+#warnDialog label {
+    color: black;
+    font-weight: 700;
+}
+
+#errorDialog,
+#infoDialog,
+#warnDialog {
+    background-color: #f0f0f0;
+}
+
+#errorDialog button label,
+#infoDialog button label,
+#warnDialog button label {
+    color: white;
+    font-weight: 700;
+}
+
+#errorDialog button {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: rgb(255, 20, 20);
+}
+
 #infoDialog button {
     border-radius: 0;
     box-shadow: none;
@@ -42,6 +76,12 @@ label {
     border: none;
     background-color: rgb(0, 255, 0);
 }
-#infoDialog label {
-    color: black;
+
+#warnDialog button {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: rgb(255, 221, 0);
 }

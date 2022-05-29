@@ -204,7 +204,7 @@ char* do_password_hash(char *password){
     return result;
 }
 
-char *timeToStr(struct tm *timeInfo){
+char *time_to_str(struct tm *timeInfo){
     static const char weekDay[][10] = {
         "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
     static const char monthDay[][15] = {

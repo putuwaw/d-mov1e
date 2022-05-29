@@ -31,7 +31,6 @@ typedef struct Queue{
     char qFilmName[50];
     char qFilmTime[20];
     char qFilmChair[50];
-
     struct Queue *qNext;
 }Queue;
 extern Queue *qUser, *qFront, *qFrontPay;
@@ -75,6 +74,6 @@ void display_error_dialog(const gchar *error, GtkWidget *window);
 void display_warn_dialog(const gchar *warn, GtkWidget *window);
 void get_user_pass_from_file();
 char *do_password_hash(char *password);
-char *timeToStr(struct tm *timeInfo);
+char *time_to_str(struct tm *timeInfo);
 
 #endif // D_MOV1E_H_INCLUDED
